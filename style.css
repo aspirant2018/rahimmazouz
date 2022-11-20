@@ -6,9 +6,7 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-body{
-	background-color: black
-}
+
 header{
 
 	background-color: #f0f0f0;
@@ -36,4 +34,23 @@ header{
  }
  .navigation a:hover {
  	color: #601cfc;
+ }
+ section{
+ 	padding: 100px 200px;
+ }
+ .main {
+ 	width: 100%;
+ 	min-height: 100vh;
+ 	display: flex;
+ 	align-items: center;
+ 	background: url("images/background.jpg") no-repeat;
+ 	background-size: cover;
+ 	background-position: right center;
+ 	background-attachment: fixed;
+ }
+ .main h2{
+ 	color: white;
+ }
+ .main h3{
+ 	color: #3a6cf4;
  }
