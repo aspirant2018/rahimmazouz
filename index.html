@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<a href="#index" class="logo">r&lta&gthim</a>
+		<a href="#index" class="logo">r&lta&gtħi:m</a>
 		<nav class="navigation">
 			<a href="#projects">My projects</a>
 			<a href="#education">education</a>
@@ -17,7 +17,8 @@
 	</header>
 	<section class="main">
 		<div>
-			<h2>Hello, i'm Rahim<br><span>NLP student</span></h2>
+			<div id="app"> </div>
+			<h1> nlp text</h1>
 			<h3>"I speak with machines"</h3>
 			<a href="#projects" class="main-button">my works</a>
 			<div class=social-icons>
@@ -56,5 +57,28 @@ L'objectif de ce TP est développer un système capable de déterminer automatiq
 	<footer>
 		
 	</footer>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script>
+	var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .typeString('Hello,I am Rahim')
+  .pauseFor(1000)
+  .deleteChars(16)
+  .typeString('Bonjour, Je suis Rahim')
+  .pauseFor(1000)
+  .deleteChars(23)
+  .typeString('مرحبا انا اسمي رحيم')
+  .pauseFor(1000)
+  .deleteChars(23)
+  .typeString('Azul, Netch Rahim')
+  .pauseFor(1000)
+  .start();
+</script>
 </body>
 </html>

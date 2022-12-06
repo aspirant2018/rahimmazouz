@@ -50,12 +50,15 @@ header{
  	background-position: right center;
  	background-attachment: fixed;
  }
- .main h2{
- 	color: white;
+
+.main #app {
+	color: white;
  	font-size: 1.4em;
  	font-weight: 500;
- }
- .main h2 span{
+ 	white-space: nowrap;
+}
+ 
+ .main h1 {
  	color: #4e9eff;
  	font-size: 2em;
  	font-weight: 600;
